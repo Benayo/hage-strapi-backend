@@ -10,6 +10,10 @@
     {
       "src": "/api/(.*)",
       "dest": "package.json"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/$1"
     }
   ]
 }
